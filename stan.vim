@@ -72,7 +72,7 @@ syn match stanDistributed /\~/
 " syn keyword stanType var 
 
 syn keyword stanType  int real cov_matrix corr_matrix vector matrix simplex
-syn keyword stanBlk data model parameters transformed generated quantities 
+syn keyword stanBlk functions data model parameters transformed generated quantities 
 " syn keyword stanBlk derived
 syn match equalSign /=/
 syn keyword stanLU lower upper nextgroup=equalSign skipwhite
