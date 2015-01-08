@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Stan (http://mc-stan.org)
 " Maintainer:	J. Guo <guojq28@gmail.com> 
-" Last Change:  Thu Dec 11 12:09:02 EST 2014
+" Last Change:  Thu Jan  8 14:18:01 EST 2015
 " Filenames:	*.stan
 " URL:		
 
@@ -138,9 +138,9 @@ syntax keyword stanCppConflict  char16_t char32_t class compl const constexpr co
 syntax keyword stanCppConflict  default delete do double dynamic_cast enum explicit export extern false
 syntax keyword stanCppConflict  float friend goto inline long mutable namespace new noexcept not not_eq
 syntax keyword stanCppConflict  nullptr operator or or_eq private protected public register reinterpret_cast
-syntax keyword stanCppConflict  return short signed sizeof static static_assert static_cast struct switch
+syntax keyword stanCppConflict  short signed sizeof static static_assert static_cast struct switch
 syntax keyword stanCppConflict  template this thread_local throw true try typedef typeid typename union
-syntax keyword stanCppConflict  unsigned using virtual void volatile wchar_t xor xor_eq
+syntax keyword stanCppConflict  unsigned using virtual volatile wchar_t xor xor_eq
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
