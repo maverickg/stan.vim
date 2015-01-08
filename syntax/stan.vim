@@ -132,6 +132,8 @@ syn match stanCmp      />=/
 syn match stanCmp      /<=/
 syn match stanCmp      />/
 syn match stanCmp      /</
+" transpose 
+syn match stanCmp      /'/
 
 syntax keyword stanCppConflict  alignas alignof and and_eq asm auto bitand bitor bool break case catch char
 syntax keyword stanCppConflict  char16_t char32_t class compl const constexpr const_cast continue decltype
