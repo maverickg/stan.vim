@@ -138,6 +138,8 @@ syn match stanCmp      />=/
 syn match stanCmp      /<=/
 syn match stanCmp      />/
 syn match stanCmp      /</
+" transpose 
+syn match stanCmp      /'/
 
 syntax keyword stanCppConflict  alignas alignof and and_eq asm auto bitand bitor bool break case catch char
 syntax keyword stanCppConflict  char16_t char32_t class compl const constexpr const_cast continue decltype
@@ -146,7 +148,7 @@ syntax keyword stanCppConflict  float friend goto inline long mutable namespace 
 syntax keyword stanCppConflict  nullptr operator or or_eq private protected public register reinterpret_cast
 syntax keyword stanCppConflict  short signed sizeof static static_assert static_cast struct switch
 syntax keyword stanCppConflict  template this thread_local throw true try typedef typeid typename union
-syntax keyword stanCppConflict  unsigned using virtual void volatile wchar_t xor xor_eq
+syntax keyword stanCppConflict  unsigned using virtual volatile wchar_t xor xor_eq
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
