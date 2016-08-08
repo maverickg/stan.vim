@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Stan (http://mc-stan.org)
 " Maintainer:	J. Guo <guojq28@gmail.com> 
-" Last Change:  Feb 18 2015
+" Last Change:  Aug 7 2016
 " Filenames:	*.stan
 " URL:		
 
@@ -131,7 +131,7 @@ syn match stanBraceError /[)}]/ contained
 syn match stanCurlyError /[)\]]/ contained
 syn match stanParenError /[\]}]/ contained
 syn match stanDAError  /<\{2,}-/
-syn match stanEqError  /\(lower\s*\|upper\s*\|>\|<\)\@<!=/
+" syn match stanEqError  /\(lower\s*\|upper\s*\|>\|<\)\@<!=/
 syn match stanCmp      /==/
 syn match stanCmp      /!=/
 syn match stanCmp      />=/
@@ -191,6 +191,7 @@ if version >= 508 || !exists("did_r_syn_inits")
   HiLink stanBlk         Special 
   HiLink stanLU          Special 
   HiLink stanCmp         Operator
+  HiLink equalSign  Operator
   delcommand HiLink
 endif
 
