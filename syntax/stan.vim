@@ -81,8 +81,8 @@ syn match leftParen /(/
 syn keyword stanDistributions normal uniform multi_normal inv_gamma 
 syn keyword stanDistributions normal_log uniform_log multi_normal_log inv_gamma_log 
 syn keyword stanDistributions categorical categorical_log  
-syn keyword stanDistributions normal_trunc_l normal_trunc_h  normal_trunc_lh exponential inv_chi_square student cauchy  
-syn keyword stanDistributions normal_trunc_l_log normal_trunc_h_log  normal_trunc_lh_log exponential_log inv_chi_square_log student_log cauchy_log  
+syn keyword stanDistributions normal_trunc_l normal_trunc_h  normal_trunc_lh exponential inv_chi_square student_t cauchy  
+syn keyword stanDistributions normal_trunc_l_log normal_trunc_h_log  normal_trunc_lh_log exponential_log inv_chi_square_log student_t_log cauchy_log  
 syn keyword stanDistributions double_exponential weibull logistic lognormal dirichlet skew_normal
 syn keyword stanDistributions double_exponential_log weibull_log logistic_log lognormal_log dirichlet_log 
 syn keyword stanDistributions bernoulli binomial neg_binomial beta_binomial poisson 
